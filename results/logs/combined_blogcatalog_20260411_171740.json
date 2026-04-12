@@ -1,0 +1,16 @@
+{
+  "embedding": "combined",
+  "dataset": "blogcatalog",
+  "x_shape": [
+    10312,
+    256
+  ],
+  "train_size": 8249,
+  "test_size": 2063,
+  "num_classes": 39,
+  "micro_f1": 0.3298,
+  "macro_f1": 0.1764,
+  "model": "OneVsRestClassifier(LogisticRegression)",
+  "solver": "lbfgs",
+  "max_iter": 1000
+}

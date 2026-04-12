@@ -1,0 +1,16 @@
+{
+  "embedding": "deepwalk",
+  "dataset": "wikipedia",
+  "x_shape": [
+    4777,
+    128
+  ],
+  "train_size": 3821,
+  "test_size": 956,
+  "num_classes": 40,
+  "micro_f1": 0.3423,
+  "macro_f1": 0.0415,
+  "model": "OneVsRestClassifier(LogisticRegression)",
+  "solver": "lbfgs",
+  "max_iter": 1000
+}

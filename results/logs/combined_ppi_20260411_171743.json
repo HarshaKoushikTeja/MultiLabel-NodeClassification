@@ -1,0 +1,16 @@
+{
+  "embedding": "combined",
+  "dataset": "ppi",
+  "x_shape": [
+    3852,
+    256
+  ],
+  "train_size": 3081,
+  "test_size": 771,
+  "num_classes": 50,
+  "micro_f1": 0.1184,
+  "macro_f1": 0.0944,
+  "model": "OneVsRestClassifier(LogisticRegression)",
+  "solver": "lbfgs",
+  "max_iter": 1000
+}
