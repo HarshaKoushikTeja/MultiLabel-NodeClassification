@@ -20,24 +20,24 @@ from sklearn.metrics import f1_score, hamming_loss
 
 DATASETS = {
     "blogcatalog": {
-        "graph":       "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/blogcatalog.gpickle",
-        "labels":      "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/labels_blogcatalog.csv",
-        "test_idx":    "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/test_idx.npy",
-        "pred":        "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/src/classification/results/predictions_baseline_blogcatalog.npy",
+        "graph":       "data/processed/blogcatalog.gpickle",
+        "labels":      "data/processed/labels_blogcatalog.csv",
+        "test_idx":    "data/processed/test_idx.npy",
+        "pred":        "results/predictions_baseline_blogcatalog.npy",
         "idx_are_ids": True,
     },
     "ppi": {
-        "graph":       "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/ppi.gpickle",
-        "labels":      "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/labels_ppi.csv",
-        "test_idx":    "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/test_idx_ppi.npy",
-        "pred":        "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/src/classification/results/predictions_baseline_ppi.npy",
+        "graph":       "data/processed/ppi.gpickle",
+        "labels":      "data/processed/labels_ppi.csv",
+        "test_idx":    "data/processed/test_idx_ppi.npy",
+        "pred":        "results/predictions_baseline_ppi.npy",
         "idx_are_ids": False,
     },
     "wikipedia": {
-        "graph":       "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/wikipedia.gpickle",
-        "labels":      "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/labels_wikipedia.csv",
-        "test_idx":    "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/data/processed/test_idx_wikipedia.npy",
-        "pred":        "/Users/adityakhurana/Developer/MultiLabel-NodeClassification/src/classification/results/predictions_baseline_wikipedia.npy",
+        "graph":       "data/processed/wikipedia.gpickle",
+        "labels":      "data/processed/labels_wikipedia.csv",
+        "test_idx":    "data/processed/test_idx_wikipedia.npy",
+        "pred":        "results/predictions_baseline_wikipedia.npy",
         "idx_are_ids": False,
     },
 }
