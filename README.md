@@ -14,11 +14,11 @@
 Multi-label node classification on social and PPI networks using DeepWalk and Node2Vec embeddings.
 
 ## Milestones
-- [ ] M1: Dataset Setup and Exploration
-- [ ] M2: Baseline Model Implementation
-- [ ] M3: DeepWalk Implementation
-- [ ] M4: Node2Vec Implementation
-- [ ] M5: Multi-Label Learning and Evaluation
+- [x] M1: Dataset Setup and Exploration
+- [x] M2: Baseline Model Implementation
+- [x] M3: DeepWalk Implementation
+- [x] M4: Node2Vec Implementation
+- [x] M5: Multi-Label Learning and Evaluation
 - [ ] M6: Analysis and Reporting
 
 ## Setup
