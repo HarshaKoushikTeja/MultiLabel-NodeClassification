@@ -1,0 +1,4 @@
+model,dataset,micro_f1,macro_f1,hamming_loss
+Baseline (degree + OvR LR),blogcatalog,0.1652,0.0245,0.1375
+Baseline (degree + OvR LR),ppi,0.0937,0.0649,0.4419
+Baseline (degree + OvR LR),wikipedia,0.3859,0.0292,0.0524

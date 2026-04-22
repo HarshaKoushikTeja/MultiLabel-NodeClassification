@@ -1,0 +1,16 @@
+{
+  "embedding": "deepwalk",
+  "dataset": "ppi",
+  "x_shape": [
+    3852,
+    128
+  ],
+  "train_size": 3081,
+  "test_size": 771,
+  "num_classes": 50,
+  "micro_f1": 0.0882,
+  "macro_f1": 0.066,
+  "model": "OneVsRestClassifier(LogisticRegression)",
+  "solver": "lbfgs",
+  "max_iter": 1000
+}
