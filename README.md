@@ -1,4 +1,4 @@
-# P15: Multi-Label Node Classification using Graph Representation Learning
+# Multi-Label Node Classification using Graph Representation Learning
 
 ## Team
 | Name | Role |
@@ -19,7 +19,7 @@ Multi-label node classification on social and PPI networks using DeepWalk and No
 - [x] M3: DeepWalk Implementation
 - [x] M4: Node2Vec Implementation
 - [x] M5: Multi-Label Learning and Evaluation
-- [ ] M6: Analysis and Reporting
+- [x] M6: Analysis and Reporting
 
 ## Setup
 
