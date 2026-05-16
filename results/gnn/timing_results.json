@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "blogcatalog",
+    "model": "gcn",
+    "params": 1341735,
+    "epochs_run": 300,
+    "train_time_sec": 13.24,
+    "gpu_mem_mb": 744.7
+  },
+  {
+    "dataset": "blogcatalog",
+    "model": "graphsage",
+    "params": 1363111,
+    "epochs_run": 149,
+    "train_time_sec": 5.58,
+    "gpu_mem_mb": 406.1
+  },
+  {
+    "dataset": "blogcatalog",
+    "model": "gat",
+    "params": 1494389,
+    "epochs_run": 164,
+    "train_time_sec": 468.63,
+    "gpu_mem_mb": 10815.8
+  },
+  {
+    "dataset": "ppi",
+    "model": "gcn",
+    "params": 516274,
+    "epochs_run": 300,
+    "train_time_sec": 2.79,
+    "gpu_mem_mb": 112.9
+  },
+  {
+    "dataset": "ppi",
+    "model": "graphsage",
+    "params": 539058,
+    "epochs_run": 116,
+    "train_time_sec": 0.77,
+    "gpu_mem_mb": 75.5
+  },
+  {
+    "dataset": "ppi",
+    "model": "gat",
+    "params": 678806,
+    "epochs_run": 184,
+    "train_time_sec": 8.71,
+    "gpu_mem_mb": 1302.1
+  },
+  {
+    "dataset": "wikipedia",
+    "model": "gcn",
+    "params": 633384,
+    "epochs_run": 124,
+    "train_time_sec": 2.02,
+    "gpu_mem_mb": 226.9
+  },
+  {
+    "dataset": "wikipedia",
+    "model": "graphsage",
+    "params": 654888,
+    "epochs_run": 149,
+    "train_time_sec": 1.94,
+    "gpu_mem_mb": 133.9
+  },
+  {
+    "dataset": "wikipedia",
+    "model": "gat",
+    "params": 786936,
+    "epochs_run": 189,
+    "train_time_sec": 20.13,
+    "gpu_mem_mb": 3044.3
+  }
+]
